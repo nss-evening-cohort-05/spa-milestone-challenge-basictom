@@ -5,7 +5,6 @@ var CarLot = (function () {
 
   function carIn(){
     var inventory = JSON.parse(this.responseText).cars;
-    console.log(inventory);
     populatePage(inventory);
   }
 

@@ -3,44 +3,58 @@
     {
       "make": "Nissan",
       "model": "Rogue",
+      "img":"https://di-uploads-pod2.s3.amazonaws.com/middletownhonda/uploads/2015/06/2015-Nissan-Rogue1.png",
       "year": "2006",
       "price": "8999",
       "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
     },
     {
-      "make": "Toyota",
-      "model": "4-Runner",
-      "year": "2013",
-      "price": "49000",
-      "description": "4-Runner. Hell of a mahcine. Leather seats, power everything."
-    },
-    {
-      "make": "Ford",
-      "model": "F150",
-      "year": "20##",
-      "price": "8999",
-      "description": "Ford: Fix Or Repair Daily. Leather seats, power everything."
-    },
-    {
-      "make": "Dodge",
-      "model": "Dart",
-      "year": "1970",
-      "price": "20999",
-      "description": "This thing is a boat. Leather seats, power everything."
-    },
-    {
-      "make": "Oldmobiles",
-      "model": "Centenial",
-      "year": "1920",
-      "price": "5",
-      "description": "Wood paneling is super in right now. Leather seats, power everything."
-    },
-    {
-      "make": "Lincoln",
-      "model": "LX",
+      "make": "Nissan",
+      "model": "Rogue",
+      "img":"https://di-uploads-pod2.s3.amazonaws.com/middletownhonda/uploads/2015/06/2015-Nissan-Rogue1.png",
       "year": "2006",
-      "price": "10999",
-      "description": "Eh... Leather seats, power everything."
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "img":"https://di-uploads-pod2.s3.amazonaws.com/middletownhonda/uploads/2015/06/2015-Nissan-Rogue1.png",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "img":"https://di-uploads-pod2.s3.amazonaws.com/middletownhonda/uploads/2015/06/2015-Nissan-Rogue1.png",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "img":"https://di-uploads-pod2.s3.amazonaws.com/middletownhonda/uploads/2015/06/2015-Nissan-Rogue1.png",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "img":"https://di-uploads-pod2.s3.amazonaws.com/middletownhonda/uploads/2015/06/2015-Nissan-Rogue1.png",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "img":"https://di-uploads-pod2.s3.amazonaws.com/middletownhonda/uploads/2015/06/2015-Nissan-Rogue1.png",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
     }
   ]
 }
