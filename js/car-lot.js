@@ -1,5 +1,3 @@
-console.log("hello");
-
 var CarLot = (function () {
   var inventory = [];
 
