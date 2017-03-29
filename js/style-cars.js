@@ -10,22 +10,25 @@ var CarLot = (function(myCar){
     removeBorder();
     if(e.target.classList.contains("car-holder")){
       e.target.childNodes[2].classList.toggle("add-border");
-      selectedDesc = e.target.childNodes[2].childNodes[0].childNodes[3]
-      // console.log("card-holder", selectedDesc);
+      selectDesc = e.target.childNodes[2].childNodes[5];
+      // console.log("car-holder", selectDesc);
     }else if(e.target.classList.contains("thumbnail")){
       e.target.classList.toggle("add-border");
-      selectedDesc = e.target.childNodes[0].childNodes[3];
+      selectDesc = e.target.childNodes[5];
+      console.log("thumbnail-nodes", selectDesc);
+    }else if(e.target.classList.contains("image")){
+      e.target.parentNode.classList.toggle("add-border");
+      selectDesc = e.target;
+      console.log("image", e.target.nodeSibling);
     }else if(e.target.classList.contains("caption")){
       e.target.parentNode.classList.toggle("add-border");
-      selectDesc = e.target.childNodes[3];
+      selectDesc = e.target;
     }
-    // }else if(e.target.classList.contains("thumbnail")){
-    //   selectedDesc = e.target.childNodes[2].childNodes[1];
-    //   console.log("it clicked", selectedDesc);
-    // }else if(e.target.classList.contains("caption")){
-    //   console.log(selectedDesc);
-    // }
     search.focus();
+  }
+
+  function mirrorText(){
+    selectDesc.innerHTML = search.value;
   }
 
   function removeBorder(e){
@@ -33,12 +36,8 @@ var CarLot = (function(myCar){
     for(var i=0;i<carArray.length;i++){
       // console.log(carArray[i]);
       carArray[i].classList.remove("add-border");
-      search.innerHTML = ""
+      search.value = "";
     }
-  }
-
-  function mirrorText(){
-    selectDesc.innerHTML = search.value;
   }
 search.addEventListener("keyup", mirrorText);
 document.body.addEventListener("click", CarLot.addStyles);
