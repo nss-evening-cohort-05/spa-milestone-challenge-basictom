@@ -14,3 +14,6 @@ body {
   border: 1px solid #575757;
   background-color: #e5e5e5;
 }
+.row {
+  margin: 0px 20px;
+}
