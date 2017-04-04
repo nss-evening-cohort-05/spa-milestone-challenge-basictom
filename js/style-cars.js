@@ -16,7 +16,7 @@ var CarLot = (function(myCar){
       selectDesc = e.target.childNodes[5];
     }else if(e.target.classList.contains("image")){
       e.target.parentNode.classList.toggle("add-border");
-      selectDesc = e.target;
+      selectDesc = e.target.parentNode.childNodes[5];
     }else if(e.target.classList.contains("caption")){
       e.target.parentNode.classList.toggle("add-border");
       selectDesc = e.target;
@@ -24,19 +24,33 @@ var CarLot = (function(myCar){
     search.focus();
   }
 
+  function clearText(keypress){
+    if(keypress.which === 13){
+      search.value = "";
+    }
+  }
+
   function mirrorText(){
     selectDesc.innerHTML = search.value;
   }
 
+
   function removeBorder(e){
     var carArray = document.getElementsByClassName("thumbnail");
     for(var i=0;i<carArray.length;i++){
-      // console.log(carArray[i]);
       carArray[i].classList.remove("add-border");
       search.value = "";
     }
   }
+  // function clearInput(e){
+  //   if(){
+  //
+  //   }
+  // }
+
+// search.addEventListener("keyup", clearInput);
 search.addEventListener("keyup", mirrorText);
 document.body.addEventListener("click", CarLot.addStyles);
+document.body.addEventListener("keypress", clearText);
 
 })(CarLot || {});
