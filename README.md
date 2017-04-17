@@ -22,3 +22,8 @@
   ```http-server```
 
   ```http://127.0.0.1:8080/ (paste into browser window)```
+
+  Contributors
+  ==
+
+  [Thomas Fitzgerald](https://github.com/basictom)
