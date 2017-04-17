@@ -1,8 +1,8 @@
 ![Splashpage](https://raw.githubusercontent.com/nss-evening-cohort-05/spa-milestone-challenge-basictom/challenge/spa-milestone.png)
 
-  The car data is loaded into a private array, looped through, and printed to DOM. Cars are printed into bootstraps predefined rows and columns. All the cars are Nissan Rogues, because why would I sell any other cars?
+  The car data is loaded into a private array, looped through, and printed to DOM. Cars are printed into bootstraps predefined rows and columns.
 
-  When any part of the card is clicked on, the search file focus in with the cursor. When the user types into the input field the description of the selected card will mirror the input. WOOHOO. Tom <3's readme's. 
+  When any part of the card is clicked on, the search file focus in with the cursor. When the user types into the input field the description of the selected card will mirror the users input.
 
   Technologies used
   ==
@@ -19,6 +19,6 @@
 
   ```cd spa-milestone-challenge-basictom```
 
-  ```http-server (needs node installation)```
+  ```http-server```
 
   ```http://127.0.0.1:8080/ (paste into browser window)```
